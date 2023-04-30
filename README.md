@@ -1,3 +1,3 @@
 # Iconic-Roleplay-Website
 
-<img align="center" alt="coding" width="400" height="800" src="https://i0.wp.com/i.giphy.com/media/zOvBKUUEERdNm/giphy-downsized.gif?w=770&ssl=1">
+<img align="center" alt="coding" width="600" height="200" src="images/Screenshot 2023-04-30 173229.png">
