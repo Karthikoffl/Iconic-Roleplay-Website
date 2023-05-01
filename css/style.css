@@ -31,12 +31,12 @@ body {
 /* Track */
 ::-webkit-scrollbar-track {
   background: rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  border-radius: 5px;
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #5f79a7;
+  border-radius: 5px;
+  background: rgb(0, 153, 255);
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -67,8 +67,11 @@ header {
     /* padding-top: 50px; */
 }
 header.b-webp {
-	background: url(https://gta5grand.com/assets/images/webp/bg-header.webp) no-repeat top center;
-	background-size: cover;
+	background: url(../images/bagkground-image.png) no-repeat;
+    margin-right: 260px;
+    align-items: center;
+    justify-content: center;
+	background-size: contain;
 }
 header:after {
     content: "";
@@ -246,17 +249,21 @@ header .guys-fly-wrapper {
     pointer-events: none;
 }
 header .guys-fly {
-    background: url(https://gta5grand.com/assets/images/guys.png) no-repeat;
+    /* background: url(https://gta5grand.com/assets/images/guys.png) no-repeat; */
     background-size: 100% 100%;
     width: 1456px;
     height: 965px;
+    margin-top: 100px;
     position: absolute;
-    bottom: 0;
     pointer-events: none;
-    margin-left: 137px;
 }
 header .guys-fly.b-webp {
-	background: url(../images/gtaonline-the-criminal-enterprises-alternative-artwork-png.png) no-repeat;
+	/* background: url(../images/gtaonline-the-criminal-enterprises-alternative-artwork-png.png) no-repeat; */
+    width: 1400px;
+    height: 820px;
+    align-items: center;
+    /* left: 10px;
+    right: 10px; */
     background-size: 100% 100%;
 }
 header .header-fly-bot {
@@ -277,7 +284,6 @@ header .header-fly-bot {
             flex-direction: column;
     z-index: 1;
     width: 100%;
-    left: 0;
 }
 header .header-fly-bot .start-game {
     font: inherit;
@@ -645,7 +651,7 @@ header .header-center .container .header-center-wrap .owl-carousel.header-wow .o
 header .header-fly-1 {
     position: absolute;
     left: 0;
-    bottom: -146px;
+    bottom: -26px;
     background: url(https://gta5grand.com/assets/images/fly-header-1.png) no-repeat;
     background-size: 100% 100%;
     width: 270px;
@@ -656,7 +662,7 @@ header .header-fly-1 {
 header .header-fly-2 {
     position: absolute;
     right: 0;
-    bottom: -69px;
+    bottom: -224px;
     background: url(https://gta5grand.com/assets/images/fly-header-2.png) no-repeat;
     background-size: 100% 100%;
     width: 246px;
@@ -806,12 +812,12 @@ main .about-the-project:hover .about-play-group .play {
 }
 main .about-the-project .main-fly-man {
     position: absolute;
-    right: -717px;
-    top: -167px;
-    background: url(https://gta5grand.com/assets/images/man.png) no-repeat;
+    right: -890px;
+    top: -37px;
+    background: url(../images/single-char) no-repeat;
     background-size: 100% 100%;
     width: 1114px;
-    height: 987px;
+    height: 587px;
     pointer-events: none;
     z-index: -1;
 }
@@ -870,7 +876,7 @@ main .container .how-to-start .how-to-start-content .how-to-start-step:nth-child
     padding-top: 72px;
 }
 main .container-wrapper {
-    background: url(https://gta5grand.com/assets/images/bg-main.png) no-repeat top center;
+    background: url(../images/bagkground-image.jpg) no-repeat top center;
     background-size: 100% 100%;
     width: 100%;
     height: 875px;
@@ -999,11 +1005,11 @@ main .container .how-to-start .how-to-start-content:before {
     content: "";
     background: url(https://gta5grand.com/assets/images/line-steps.png) no-repeat;
     background-size: 100% 100%;
-    width: 580px;
+    width: 500px;
     height: 179px;
     position: absolute;
     left: 156px;
-    top: 260px;
+    top: 160px;
     z-index: 1;
     -webkit-transform: skewY(4deg);
     -ms-transform: skewY(4deg);
@@ -1049,14 +1055,14 @@ main .container.b-slider {
 }
 main .container .fly-car {
     position: absolute;
-    bottom: -133px;
-    left: -73px;
-    background: url(https://gta5grand.com/assets/images/car.png) no-repeat;
+    bottom: -100px;
+    left: -170px;
+    background: url(../images/banner-png.png) no-repeat;
     background-size: 100% 100%;
     -webkit-transform: skewY(4deg);
         -ms-transform: skewY(4deg);
             transform: skewY(4deg);
-    width: 656px;
+    width: 700px;
     height: 430px;
 }
 main .container .main-wow-content .main-wow-right {
@@ -1223,39 +1229,39 @@ main .container.b-tabs #tabs .tab-content .tab-content-description .b-text-2 {
     width: 466px;
 }
 main .container.b-tabs #tabs > ul > li > a .fly-icon.b-car {
-    background: url(https://gta5grand.com/assets/images/tabs/tab-1-icon.png) no-repeat;
+    background: url(../images/icons/lamborghini.png) no-repeat;
     background-size: 100% 100%;
-    width: 281px;
-    height: 127px;
+    width: 241px;
+    height: 117px;
     position: absolute;
-    right: -42px;
+    right: -22px;
 }
 main .container.b-tabs #tabs > ul > li > a .fly-icon.b-man {
-    background: url(https://gta5grand.com/assets/images/tabs/tab-2-icon.png) no-repeat;
+    background: url(../images/taleofus.png) no-repeat;
     background-size: 100% 100%;
-    width: 211px;
+    width: 380px;
     height: 200px;
     position: absolute;
-    right: 3px;
+    left: 210px;
     top: -10px;
 }
 main .container.b-tabs #tabs > ul > li > a .fly-icon.b-weapon {
-    background: url(https://gta5grand.com/assets/images/tabs/tab-3-icon.png) no-repeat;
+    background: url(../images/icons/ar-gun.webp) no-repeat;
     background-size: 100% 100%;
-    width: 317px;
-    height: 340px;
+    width: 200px;
+    height: 220px;
     position: absolute;
-    right: -91px;
-    top: -45px;
+    right: -41px;
+    top: -25px;
 }
 main .container.b-tabs #tabs > ul > li > a .fly-icon.b-backpack {
-    background: url(https://gta5grand.com/assets/images/tabs/tab-4-icon.png) no-repeat;
+    background: url(../images/icons/briefcase.png) no-repeat;
     background-size: 100% 100%;
-    width: 351px;
-    height: 342px;
+    width: 300px;
+    height: 242px;
     position: absolute;
-    right: -127px;
-    top: -45px;
+    right: -65px;
+    top: -35px;
 }
 main .container.b-tabs .content-start-game {
     z-index: 1;
@@ -1370,10 +1376,13 @@ footer {
     padding-top: 4.140625vw;
 }
 footer.b-webp {
-	background: url(https://gta5grand.com/assets/images/webp/bg-footer.webp) no-repeat top center;
+	background: url(../images/bg-footer.png) no-repeat;
     background-size: 100% 100%;
+    background: contain;
 }
-footer .big-buttons-social {
+.container .big-buttons-social {
+    margin-bottom: 0;
+    margin-top: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1381,7 +1390,8 @@ footer .big-buttons-social {
         -ms-flex-pack: center;
             justify-content: center;
 }
-footer .big-buttons-social > li {
+.big-buttons-social > li {
+    padding: 10px;
     width: 19.8vw;
     height: 18.6vw;
     position: relative;
@@ -1404,17 +1414,17 @@ footer .big-buttons-social > li {
     -moz-transition: transform 0.23232323s ease-in-out;
     z-index: 0;
 }
-footer .big-buttons-social > li.b-youtube {
+.big-buttons-social > li.b-youtube {
     margin-top: -2.1328125vw;
     margin-left: -2.3828125vw;
     z-index: 1;
 }
-footer .big-buttons-social > li.b-discord {
+.big-buttons-social > li.b-discord {
     margin-top: -3.8vw;
     margin-left: -2.2vw;
     z-index: 2;
 }
-footer .container {
+.container {
     width: 100%;
     height: 100%;
     max-width: 52.890625vw;
@@ -1424,14 +1434,14 @@ footer .container {
     padding-left: 15px;
     z-index: 1;
 }
-footer .big-buttons-social > li.b-vk:after {
+.big-buttons-social > li.b-vk:after {
     content: "";
     background: url(https://gta5grand.com/assets/images/vk.png) no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
 }
-footer .big-buttons-social > li.b-vk:before {
+.big-buttons-social > li.b-vk:before {
     content: "";
     background: url(https://gta5grand.com/assets/images/vk-shadow.png) no-repeat;
     background-size: 100% 100%;
@@ -1443,14 +1453,14 @@ footer .big-buttons-social > li.b-vk:before {
     pointer-events: none;
     z-index: -1;
 }
-footer .big-buttons-social > li.b-twitter:after {
+.big-buttons-social > li.b-twitter:after {
     content: "";
     background: url(https://gta5grand.com/assets/images/twitter.png) no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
 }
-footer .big-buttons-social > li.b-twitter:before {
+.big-buttons-social > li.b-twitter:before {
     content: "";
     background: url(https://gta5grand.com/assets/images/vk-shadow.png) no-repeat;
     background-size: 100% 100%;
@@ -1462,14 +1472,14 @@ footer .big-buttons-social > li.b-twitter:before {
     pointer-events: none;
     z-index: -1;
 }
-footer .big-buttons-social > li.b-youtube:after {
+.big-buttons-social > li.b-youtube:after {
     content: "";
-    background: url(https://gta5grand.com/assets/images/youtube.png) no-repeat;
+    background: url(../images/icons/instagram.png) no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
 }
-footer .big-buttons-social > li.b-youtube:before {
+.big-buttons-social > li.b-youtube:before {
     content: "";
     background: url(https://gta5grand.com/assets/images/youtube-shadow.png) no-repeat;
     background-size: 100% 100%;
@@ -1481,14 +1491,14 @@ footer .big-buttons-social > li.b-youtube:before {
     pointer-events: none;
     z-index: -1;
 }
-footer .big-buttons-social > li.b-discord:after {
+.big-buttons-social > li.b-discord:after {
     content: "";
     background: url(https://gta5grand.com/assets/images/discord.png) no-repeat;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
 }
-footer .big-buttons-social > li.b-discord:before {
+.big-buttons-social > li.b-discord:before {
     content: "";
     background: url(https://gta5grand.com/assets/images/discord-shadow.png) no-repeat;
     background-size: 100% 100%;
@@ -1500,7 +1510,7 @@ footer .big-buttons-social > li.b-discord:before {
     pointer-events: none;
     z-index: -1;
 }
-footer .big-buttons-social > li > a {
+.big-buttons-social > li > a {
     width: 100%;
     height: 100%;
     display: -webkit-box;
@@ -1514,7 +1524,7 @@ footer .big-buttons-social > li > a {
     color: #fff;
     z-index: 2;
 }
-footer .big-buttons-social > li > a > p {
+.big-buttons-social > li > a > p {
     font-weight: 800;
     font-size: 1.5vw;
     text-transform: uppercase;
@@ -1526,60 +1536,61 @@ footer .big-buttons-social > li > a > p {
             transform: skewY(-4deg);
     line-height: 1.2;
 }
-footer .big-buttons-social > li > a > p > span {
+.big-buttons-social > li > a > p > span {
     display: block;
     font-weight: 400;
     font-size: 0.9vw;
 }
-footer .big-buttons-social > li:hover {
+.big-buttons-social > li:hover {
     -webkit-transform: translateY(4px);
         -ms-transform: translateY(4px);
             transform: translateY(4px);
 }
-footer .big-buttons-social > li.b-vk .b-fly-1,
-footer .big-buttons-social > li.b-twitter .b-fly-1{
+.big-buttons-social > li.b-vk .b-fly-1,
+.big-buttons-social > li.b-twitter .b-fly-1{
     position: absolute;
     left: -3vw;
     bottom: -1.8vw;
-    background: url(https://gta5grand.com/assets/images/fly-vk-1.png) no-repeat;
+    /* background: url(https://gta5grand.com/assets/images/fly-vk-1.png) no-repeat; */
     background-size: 100% 100%;
     width: 9.2vw;
     height: 10.3vw;
     pointer-events: none;
 }
-footer .big-buttons-social > li.b-vk .b-fly-2,
-footer .big-buttons-social > li.b-twitter .b-fly-2{
+.big-buttons-social > li.b-vk .b-fly-2,
+.big-buttons-social > li.b-twitter .b-fly-2{
     position: absolute;
     right: -9.6vw;
     bottom: -0.8vw;
-    background: url(https://gta5grand.com/assets/images/fly-vk-2.png) no-repeat;
     background-size: 100% 100%;
     width: 14.5vw;
     height: 9.8vw;
     pointer-events: none;
 }
 
-footer .big-buttons-social > li.b-youtube .b-fly-1 {
+.big-buttons-social > li.b-youtube .b-fly-1 {
     position: absolute;
     right: -2vw;
+    /* background: url(https://gta5grand.com/assets/images/fly-vk-2.png) no-repeat; */
     bottom: -1.25vw;
-    background: url(https://gta5grand.com/assets/images/fly-youtube-1.png) no-repeat;
     background-size: 100% 100%;
     width: 10.3vw;
     height: 6.3vw;
     pointer-events: none;
 }
-footer .big-buttons-social > li.b-discord .b-fly-1 {
+.big-buttons-social > li.b-discord .b-fly-1 {
     position: absolute;
-    left: -0.5vw;
-    top: -5.3vw;
-    background: url(https://gta5grand.com/assets/images/fly-discord-1.png) no-repeat;
+    left: -2.5vw;
+    z-index: -1;
+    /* top: -5.3vw; */
+    /* background: url(https://gta5grand.com/assets/images/fly-youtube-1.png) no-repeat; */
     background-size: 100% 100%;
     width: 5.3vw;
     height: 7.6vw;
     pointer-events: none;
 }
-footer .footer-main-content {
+
+footer .footer-main-content { 
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1595,16 +1606,17 @@ footer .footer-main-content .b-description {
 }
 footer .footer-main-content .b-description:before {
     content: "";
-    background: url(https://gta5grand.com/assets/images/svg/logo.svg) no-repeat;
+    background: url(../images/logo.png) no-repeat;
     background-size: 100% 100%;
-    width: 2.7734375vw;
-    height: 2.5vw;
+    width: 230px;
+    height: 120px;
     position: absolute;
-    left: -6.9140625vw;
-    margin-top: 100px;
+    left: -220px;
+    margin-top: 5px;
+    margin-bottom: 100px;
 }
 footer .footer-main-content .b-other-links-wrap {
-    margin-top: 2.34375vw;
+    margin-top: 5px;
     position: relative;
 }
 footer .footer-main-content .b-other-links > li {
@@ -1711,8 +1723,8 @@ footer .footer-main-content .footer-man-content-right .main-links > li > a.b-you
     content: "";
     background: url(https://gta5grand.com/assets/images/svg/youtube.svg) no-repeat;
     background-size: 100% 100%;
-    width: 0.9375vw;
-    height: 0.8984375vw;
+    width: 20px;
+    height: 20px;
     display: block;
 }
 footer .footer-main-content .footer-man-content-right .main-links > li > a.b-vk:before {
@@ -1727,16 +1739,24 @@ footer .footer-main-content .footer-man-content-right .main-links > li > a.b-twi
     content: "";
     background: url(https://gta5grand.com/assets/images/svg/twitter.svg) no-repeat;
     background-size: 100% 100%;
-    width: 1.171875vw;
-    height: 0.9375vw;
+    width: 20px;
+    height: 20px;
     display: block;
 }
 footer .footer-main-content .footer-man-content-right .main-links > li > a.b-discord:before {
     content: "";
-    background: url(https://gta5grand.com/assets/images/svg/discord.svg) no-repeat;
+    background: url(../images/icons/discord.png) no-repeat;
     background-size: 100% 100%;
-    width: 0.8984375vw;
-    height: 0.9375vw;
+    width: 19px;
+    height: 16px;
+    display: block;
+}
+footer .footer-main-content .footer-man-content-right .main-links > li > a.b-instagram:before {
+    content: "";
+    background: url(../images/icons/Instagram_icon.png.webp) no-repeat;
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
     display: block;
 }
 footer .footer-main-content .footer-man-content-right .main-links > li > a:hover:before {
@@ -2990,9 +3010,9 @@ main .container .how-to-start .how-to-start-content .how-to-start-step .b-conten
     content: "";
     position: absolute;
     right: 23px;
-    background: url(https://gta5grand.com/assets/images/svg/download.svg) no-repeat;
+    background: url(../images/icons/discord.png) no-repeat;
     background-size: 100% 100%;
-    width: 30px;
+    width: 45px;
     height: 34px;
 }
 .lang-list > li > span {
@@ -3120,7 +3140,7 @@ header .header-center .container .header-center-wrap .header-server-list2 .heade
     max-width: 92px;
 }
 main .container.b-social {
-    margin-top: 190px;
+    margin-top: 60px;
 }
 main .container.b-social .social-list-other {
     display: grid;
@@ -3428,14 +3448,14 @@ main .container.b-social .social-list > li.b-discord > a > button {
     border-color: #ffec1c;
 }
 main .container.b-social .social-list > li.b-youtube .social-wrap .youtube-man {
-    background: url(https://gta5grand.com/assets/images/social/youtube-man.png) no-repeat;
-    background-size: 100% 100%;
-    width: 999px;
-    height: 766px;
+    background: url(../images/gtaonline-the-criminal-enterprises-nightclub-owner-artwork-png-8679-1600.png) no-repeat;
+    background-size: 100% ;
+    width: 900px;
+    height: 600px;
     position: absolute;
-    top: -241px;
+    top: -175px;
     z-index: 1;
-    left: 250px;
+    left: 160px;
 }
 main .container.b-social .social-list > li.b-discord .social-wrap .discord-man {
     background: url(https://gta5grand.com/assets/images/social/discord-man.png) no-repeat;
@@ -4200,7 +4220,7 @@ main .container.b-social .social-list > li.b-discord .social-wrap .discord-man {
 }
 main .container.b-social:before {
     content: "";
-    background: url(https://gta5grand.com/assets/images/social/left-fly.png) no-repeat;
+    /* background: url(https://gta5grand.com/assets/images/social/left-fly.png) no-repeat; */
     background-size: 100% 100%;
     position: absolute;
     left: 0;
