@@ -99,16 +99,17 @@
     }
     */
     header .header-fly-bot {
-        margin-bottom: -41px;
+        top: 450px;
+        bottom: -80px;
     }
     header .header-fly-bot .general-online {
         background: unset;
     }
     header .header-fly-bot .general-online .general-online-text {
-        color: #fff;
+        color: #000;
     }
     header .header-fly-bot .general-online .general-online-value {
-        color: #fff;
+        color: #000;
     }
     header .header-fly-bot .start-game {
         width: 314px;
@@ -121,7 +122,7 @@
         display: none;
     }
     header .header-fly-bot .general-online .general-online-value:before {
-        background: url(https://gta5grand.com/assets/images/svg/users-white.svg) no-repeat;
+        /* background: url(https://gta5grand.com/assets/images/svg/users-white.svg) no-repeat; */
         background-size: 100% 100%;
     }
     main .about-the-project {
@@ -242,13 +243,13 @@
         height: 44px;
         margin-right: 8px;
     }
-    footer .big-buttons-social {
+    .container .big-buttons-social {
         -webkit-transform: scale(1.3);
             -ms-transform: scale(1.3);
                 transform: scale(1.3);
     }
     footer .footer-main-content .footer-man-content-right .footer-find-people > p {
-        margin-bottom: -7px;
+        margin-bottom: 10px;
     }
     footer .footer-main-content .footer-man-content-right .main-links {
         margin-top: 10px;
@@ -257,9 +258,6 @@
         -webkit-transform: scale(1.5);
             -ms-transform: scale(1.5);
                 transform: scale(1.5);
-    }
-    footer .footer-main-content .b-description {
-        
     }
     main .container.b-tabs #tabs .tab-content {
         margin-left: 0px;
@@ -330,7 +328,6 @@
         flex-direction: row;
     }
     .modal-window .referal-box .bonus-list .bonus-item {
-        margin-bottom: 0px;
         margin-right: 48px;
         flex-direction: column;
     }
@@ -375,6 +372,10 @@
         transform: scale(0.5);
         transform-origin: left top;
     }
+    main .container.b-social .social-list > li.b-youtube{
+        margin-bottom: 65px;
+    }
+
 }
 @media only screen and (max-width: 908px) {
     .modal-donate .modal-donate-content {
